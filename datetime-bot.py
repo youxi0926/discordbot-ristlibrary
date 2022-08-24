@@ -1,4 +1,3 @@
-#coding:UTF-8
 import discord
 from discord.ext import tasks
 from datetime import datetime 
