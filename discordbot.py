@@ -23,4 +23,4 @@ async def neko(ctx):
 
 
 token = getenv('DISCORD_BOT_TOKEN')
-bot.run(TOKEN)
+bot.run(token)
