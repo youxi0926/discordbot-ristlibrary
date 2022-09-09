@@ -1,6 +1,7 @@
 import discord
 from discord.ext import tasks
-from datetime import datetime 
+from datetime import datetime
+from os import getenv 
 
 TOKEN = getenv('DISCORD_BOT_TOKEN') #トークン
 CHANNEL_ID = 998859031076675587 #チャンネルID
