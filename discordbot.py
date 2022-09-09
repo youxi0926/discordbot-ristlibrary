@@ -1,4 +1,4 @@
-from discord.exe import commands
+from discord.ext import commands
 from os import getenv
 import traceback
 
@@ -15,11 +15,6 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
-    
-
-@bot.command()
-async def neko(ctx):
-    await ctx.send('にゃーん')    
 
 
 token = getenv('DISCORD_BOT_TOKEN')
