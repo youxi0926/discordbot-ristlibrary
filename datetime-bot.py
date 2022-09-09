@@ -1,5 +1,5 @@
 import discord
-from discord.exe import tasks
+from discord.ext import tasks
 from datetime import datetime 
 
 TOKEN = "**********" #トークン
