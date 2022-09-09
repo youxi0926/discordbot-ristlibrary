@@ -2,7 +2,6 @@ from discord.ext import commands
 import traceback
 import discord
 from discord.ext import tasks
-from datetime import datetime
 from os import getenv
 
 bot = commands.Bot(command_prefix='/')
