@@ -23,7 +23,7 @@ async def neko(ctx):
 
 
 token = getenv('DISCORD_BOT_TOKEN')
-bot.run(from discord.exe import commands
+bot.run(from discord.exe import commands)
 from os import getenv
 import traceback
 
